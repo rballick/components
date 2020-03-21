@@ -1,0 +1,80 @@
+
+.date-picker .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.date-picker .col {
+  flex: 1;
+  text-align: center;
+}
+
+.date-picker .next, .date-picker .prev {
+  flex: none;
+}
+.date-picker {
+  width: 100%;
+  text-align: center;
+}
+.date-picker .past {
+  background: #ccc;
+  z-index: 10;
+}
+
+.date-picker div.month {
+  white-space: nowrap;
+}
+
+.date-picker .col {
+  padding: 0.25rem 0;
+}
+
+.date-picker div.month .oi {
+  font-size: 12pt;
+}
+
+.date-picker .prev {
+	padding-left: 3px;
+}
+
+.date-picker .next {
+	padding-right: 3px;
+}
+
+.date-picker div.days {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #007bff;
+	border-right-style:none;
+	border-top-style: none;
+}
+
+.date-picker div.days div.row {
+	border-color:inherit;
+}
+
+.date-picker div.days div.col {
+	border-width: 1px;
+	border-style: solid;
+	border-color: inherit;
+	border-left-style:none;
+	border-bottom-style: none;
+}
+
+.date-picker div.day .current {
+  color: #fff;
+  background: #007bff;
+}
+
+.date-picker div.day .selected {
+  box-shadow: 2px 2px 2px #000080;
+  z-index: 50;
+}
+
+.date-picker div.day .col:not(.disabled) {
+  cursor: pointer;
+}
+.date-picker .disabled {
+	opacity: .7;
+}
+

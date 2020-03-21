@@ -1,0 +1,32 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ }
+
+.spinner {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.loader circle {
+  stroke-linecap: round;
+  box-sizing: border-box;
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+ }
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  to {
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg); } }
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  to {
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg); } }

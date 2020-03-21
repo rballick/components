@@ -1,0 +1,20 @@
+.popover {
+  position: absolute;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  z-index: 100000; }
+
+.popover-body {
+  padding: 5px 0 0; }
+
+.popover-header {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-weight: bold; }
+
+.arrow {
+  width: 0;
+  height: 0; }
+
